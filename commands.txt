@@ -1,0 +1,3 @@
+kubectl apply -f aps-all-in-one.yaml
+kubectl delete -f aps-all-in-one.yaml
+cat ~/.kube/config | base64 -w 0 > kube_config_base64.txt
